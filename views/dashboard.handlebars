@@ -1,0 +1,38 @@
+{{#if allBlogPosts}}
+{{> posts}}
+{{/if}}
+
+{{#if loggedIn}}
+<div class="box box2">
+
+    <section class="hero is-small is-dark">
+        <div class="hero-body columns">
+            <div class="column">
+                <p class="title is-5">Create a new post</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="field">
+        <p class="control">
+            <input class="input" id="title" placeholder="Title">
+        </p>
+    </div>
+    <div class="field">
+        <p class="control">
+            <input class="input" id="content" placeholder="Please type your post here">
+        </p>
+    </div>
+    <div class="field">
+        <p class="control">
+            <button class="button is-success">
+                Submit
+            </button>
+        </p>
+    </div>
+</div>
+<script src="./js/submitPost.js"></script>
+{{/if}}
+{{#else}}
+
+{{/else}}

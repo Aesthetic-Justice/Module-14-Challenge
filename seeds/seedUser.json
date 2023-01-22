@@ -1,0 +1,12 @@
+[
+    {
+        "name":"admin",
+        "email":"admin@gmail.com",
+        "password":"$2b$10$VZzXu/Iknllfl/aPcA5z/ua6eVBaOQckRnjRGGSarslI4aOWIYRn6"
+    },
+    {
+        "name":"User1",
+        "email":"user1@gmail.ca",
+        "password":"$2b$10$QQZC6C/0hzfX0t1pXzGfdOten/tR0vFmRQiN464LxIzhueHlrKZCm"
+    }
+]

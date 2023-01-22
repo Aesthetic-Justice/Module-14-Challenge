@@ -1,0 +1,47 @@
+<div class="box box2">
+    <section class="hero is-small is-dark">
+        <div class="hero-body columns">
+            <div class="column">
+                <p class="title is-5">{{allBlogPosts.title}}</p>
+            </div>
+            <p>Posted by {{allBlogPosts.user.name}} on {{allBlogPosts.date}}</p>
+        </div>
+    </section>
+    <div class="box">
+        {{allBlogPosts.content}}
+    </div>
+    {{#each allComments}}
+    <div class="box box2 columns">
+        <div class="column">
+            <p>{{content}}</p>
+        </div>
+        <div class="box column is-2">
+            <p>Posted by {{user.name}} on {{date}}</p>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+<div class="box box2">
+    <section class="hero is-small is-dark">
+        <div class="hero-body columns">
+            <div class="column">
+                <p class="title is-5">Create a new comment</p>
+            </div>
+        </div>
+    </section>
+    <div class="field box2">
+        <p class="control">
+            <input class="input" id="content" placeholder="Please type your comment here">
+        </p>
+    </div>
+    <div class="field">
+        <p class="control columns is-centered">
+            <button class="button is-success box2Widthless column is-half">
+                Submit
+            </button>
+        </p>
+    </div>
+</div>
+
+<script src="../js/submitComment.js"></script>

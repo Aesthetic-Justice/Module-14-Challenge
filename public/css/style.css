@@ -1,0 +1,12 @@
+.box2 {
+    display:flexbox;
+    margin:auto;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.box2Widthless{
+    display:flexbox;
+    margin:auto;
+    margin-top: 10px;
+}

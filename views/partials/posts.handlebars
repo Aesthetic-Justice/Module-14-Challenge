@@ -1,0 +1,18 @@
+<div class="box box2 columns is-multiline" id="postContainer">
+    {{#each allBlogPosts}}
+    <section data-id={{user.id}} class="column is-12">
+        <section class="hero is-small is-dark">
+            <div class="hero-body columns">
+                <div class="column">
+                    <p class="title is-5">{{title}}</p>
+                </div>
+                <p>Posted by {{user.name}} on {{date}}</p>
+            </div>
+        </section>
+        <div class="box">
+            {{content}}
+        </div>
+    </section>
+    {{/each }}
+</div>
+<script src="./js/moveToPost.js"></script>

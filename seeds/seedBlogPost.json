@@ -1,0 +1,14 @@
+[
+    {
+        "title":"Why React is superior",
+        "content":"Subjective opinion",
+        "creator_id":"1",
+        "date":"2022-12-24"
+    },
+    {
+        "title":"Why Angular is superior",
+        "content":"Subjective opinion",
+        "creator_id":"2",
+        "date":"2022-12-25"
+    }
+]
